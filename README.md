@@ -7,4 +7,4 @@ Este proyecto mantiene activo otro web service mediante una función que se ejec
 1. Clona el proyecto:
 ```bash
 git clone https://github.com/AndySiul26/monitor_web_service
-cd tu-repo
+cd monitor_web_service
