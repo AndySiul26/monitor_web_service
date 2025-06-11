@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests, threading, os
 from dotenv import load_dotenv
 import time
