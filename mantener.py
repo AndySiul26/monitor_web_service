@@ -12,7 +12,7 @@ def ping_otro_servidor():
         print("Esperando 60 segundos antes de llamar al otro servidor...")
         threading.Timer(60.0, lambda: requests.get(URL_SERVIDOR)).start()
     except Exception as e:
-        print(f"Error al llamar al otro servidor: {e}")
+        print(f"Error al llamar al otro servidor: {str(e)}")
 
 def esperar_servidor_pareja():
     print(f"Esperando a que {URL_SERVIDOR} esté disponible...")
