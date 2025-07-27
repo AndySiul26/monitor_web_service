@@ -10,3 +10,7 @@ def monitor_activo():
     print("Se recibió ping del servidor a mantener activo")
     ping_otro_servidor()
     return "ok", 200
+
+@main_bp.route("/", methods=["GET"])
+def principal():
+    return "Monitor Activo"
